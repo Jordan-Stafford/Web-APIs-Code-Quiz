@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="questions.js" defer></script>
+    <title>Challenge 4 Quiz</title>
+  </head>
+
+  <body class="body">
+    <section>
+      <div class="introduction">
+        <h1>JavaScript Quiz!</h1>
+        <h2>How fast can you answer these questions?</h2>
+        <p>
+          Each question will give you multiple answer choices. Only one answer
+          choice is correct! When you get a question right, you will get to move
+          on with no penelty. When you answer a question wrong, you will lose 15
+          seconds of your total time. The score at the end will be determined by
+          how much time you have left. Are you ready?
+        </p>
+        <button id="beginBtn">Begin</button>
+      </div>
+    </section>
+
+    <div class="quizContainer">
+      <header>
+        <div class="titleContainer">Challenge 4 Quiz</div>
+        <div class="timerConstant">
+          <div class="timerText">Time Left</div>
+          <div class="timerSeconds">180</div>
+        </div>
+        <div class="timeline"></div>
+      </header>
+
+      <section>
+        <div class="questionPrompt">
+          <!-- <span>Explain Hoisting in JavaScript </span> -->
+        </div>
+        <div class="optionList">
+          <!-- <div class="optionChoice">
+                    <span> Hoisting is a default behavior of JavaScript where only the semantic tags and classes are
+                        moved to the bottom. </span>
+                    <div class="iconWrong">
+                        <p> &#10006 </p>
+                    </div>
+                </div>
+                <div class="optionChoice">
+                    <span> Hoisting is a default behavior of JavaScript where all the varaible and function declarations
+                        are moved to the bottom. </span>
+                    <div class="iconWrong">
+                        <p> &#10006 </p>
+                    </div>
+                </div>
+                <div class="optionChoice">
+                    <span> Hoisting is a default behavior of JavaScript where all the varaible and function declarations
+                        are moved to the top. </span>
+                    <div class="iconRight">
+                        <p> &#10004 </p>
+                    </div>
+                </div>
+                <div class="optionChoice">
+                    <span> Hoisting is a default behavior of JavaScript where certain varaible and function declarations
+                        are linked together. </span>
+                    <div class="iconWrong">
+                        <p> &#10006 </p>
+                    </div>
+                </div> -->
+        </div>
+      </section>
+
+      <footer>
+        <div class="totalRemain">
+          <span>
+            <!-- <p>2</p>of<p>8</p>Questions -->
+          </span>
+        </div>
+        <button class="nextBtn">Next Question</button>
+      </footer>
+    </div>
+
+    <div class="scoreboard">
+      <div class="congrats">
+        <!-- Congradulations! You have completed the quiz!  -->
+      </div>
+      <div class="completeScore">
+        <!-- <span>You got <p>2</p> out of <p>8</p> questions correct!</span> -->
+      </div>
+      <div class="scoreBtn">
+        <button class="restartBtn">Replay</button>
+        <button class="quitBtn">Quit</button>
+      </div>
+    </div>
+  </body>
+</html>
